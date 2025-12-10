@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on [ACT capital driving school](https://act-driving-school.vercel.app/)
+- 🔭 I’m currently working on [ACT capital driving school](https://act-capital-frontend.vercel.app/)
 
 - 🌱 I’m currently learning **FastAPI, NextJS, React**
 

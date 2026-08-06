@@ -124,7 +124,7 @@ Most of my time goes into the **React / Next.js / TypeScript** side of the stack
 
   <!-- Rendered in this repo by .github/workflows/metrics.yml, so it never depends on a
        third-party service staying online. Refreshed daily. -->
-  <img src="./assets/metrics.svg" width="100%" alt="GitHub metrics: activity, repositories, most used languages and contribution calendar" />
+  <img src="./assets/metrics.svg" width="100%" alt="GitHub metrics: activity, community stats and contribution calendar" />
 
   <br /><br />
 

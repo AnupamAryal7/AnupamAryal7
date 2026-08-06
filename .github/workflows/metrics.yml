@@ -4,9 +4,15 @@
 # github-profile-trophy.vercel.app) are frequently rate-limited or offline, which leaves
 # broken images on the profile. Rendering the card here means it is always available.
 #
-# Optional: create a classic PAT with `read:user` + `repo` scope and save it as the
-# repository secret METRICS_TOKEN to include private-contribution counts. Without it the
-# workflow falls back to GITHUB_TOKEN and reports public activity only.
+# Recommended: create a classic PAT with `read:user` + `repo` scope and save it as the
+# repository secret METRICS_TOKEN, then apply the two changes marked "needs METRICS_TOKEN"
+# below.
+#
+# Why it matters: GITHUB_TOKEN is scoped to THIS repository only. User-level panels
+# (header, activity, community, contribution calendar) are accurate with it, but the
+# `repositories` panel and the languages plugin would only see this one repo — reporting
+# "1 Repository / 0 Stargazers" and an empty language breakdown. They are therefore left
+# off until a PAT is available, rather than rendering wrong numbers.
 name: Generate GitHub metrics
 
 on:
@@ -32,12 +38,14 @@ jobs:
           user: AnupamAryal7
           filename: assets/metrics.svg
           template: classic
-          base: header, activity, community, repositories
-          base_indepth: yes
           config_timezone: Asia/Kathmandu
           config_display: large
 
-          plugin_languages: yes
+          # needs METRICS_TOKEN: append `, repositories` and set base_indepth: yes
+          base: header, activity, community
+
+          # needs METRICS_TOKEN: flip plugin_languages to yes
+          plugin_languages: no
           plugin_languages_limit: 8
           plugin_languages_details: percentage
           plugin_languages_sections: most-used

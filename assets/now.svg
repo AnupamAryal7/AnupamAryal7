@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300" role="img" aria-labelledby="nt">
+  <title id="nt">What Anupam is working on right now</title>
+
+  <defs>
+    <linearGradient id="nbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#131c36"/>
+    </linearGradient>
+    <linearGradient id="nacc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="nsoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+    <clipPath id="ncard"><rect width="420" height="300" rx="18"/></clipPath>
+    <pattern id="ngrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#94a3b8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .sans { font-family: "Segoe UI", Inter, Ubuntu, "Helvetica Neue", Arial, sans-serif; }
+      .mono { font-family: "SFMono-Regular", "JetBrains Mono", Consolas, "Liberation Mono", Menlo, monospace; }
+      @keyframes fin { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+      .i1 { animation: fin .5s ease-out both .10s; }
+      .i2 { animation: fin .5s ease-out both .32s; }
+      .i3 { animation: fin .5s ease-out both .54s; }
+      .i4 { animation: fin .5s ease-out both .76s; }
+      @keyframes dash { to { stroke-dashoffset: 0; } }
+      .chk { stroke-dasharray: 22; stroke-dashoffset: 22; animation: dash .45s ease-out forwards; }
+      .k1 { animation-delay: .45s; } .k2 { animation-delay: .67s; }
+      .k3 { animation-delay: .89s; } .k4 { animation-delay: 1.11s; }
+      @keyframes glowmove { 0%,100% { transform: translate(0,0); } 50% { transform: translate(40px,30px); } }
+      .halo { animation: glowmove 14s ease-in-out infinite; }
+      @keyframes blink { 0%,49% { opacity:1 } 50%,100% { opacity:0 } }
+      .caret { animation: blink 1s steps(1) infinite; }
+      @media (prefers-reduced-motion: reduce) { .halo,.caret { animation: none; } .chk { stroke-dashoffset: 0; animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#ncard)">
+    <rect width="420" height="300" fill="url(#nbg)"/>
+    <rect width="420" height="300" fill="url(#ngrid)"/>
+    <circle class="halo" cx="360" cy="270" r="90" fill="#6366f1" opacity="0.45" filter="url(#nsoft)"/>
+    <circle class="halo" cx="40" cy="20" r="70" fill="#22d3ee" opacity="0.30" filter="url(#nsoft)"/>
+
+    <rect x="24" y="26" width="4" height="20" rx="2" fill="url(#nacc)"/>
+    <text class="sans" x="38" y="42" font-size="16" font-weight="700" fill="#e2e8f0">Now</text>
+    <text class="mono" x="24" y="64" font-size="11" fill="#64748b" letter-spacing="1.2">// what I'm focused on</text>
+
+    <g class="i1">
+      <path class="chk k1" d="M26 96l6 6 12-13" fill="none" stroke="#4ade80" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="sans" x="54" y="100" font-size="13.5" fill="#cbd5e1"><tspan font-weight="600" fill="#7dd3fc">Building</tspan> · The Transporter</text>
+      <text class="mono" x="54" y="117" font-size="11" fill="#64748b">Next.js · Supabase · LangGraph</text>
+    </g>
+
+    <g class="i2">
+      <path class="chk k2" d="M26 152l6 6 12-13" fill="none" stroke="#4ade80" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="sans" x="54" y="156" font-size="13.5" fill="#cbd5e1"><tspan font-weight="600" fill="#7dd3fc">Learning</tspan> · FastAPI &amp; agentic AI</text>
+      <text class="mono" x="54" y="173" font-size="11" fill="#64748b">Python · PostgreSQL · LLM tooling</text>
+    </g>
+
+    <g class="i3">
+      <path class="chk k3" d="M26 208l6 6 12-13" fill="none" stroke="#4ade80" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="sans" x="54" y="212" font-size="13.5" fill="#cbd5e1"><tspan font-weight="600" fill="#7dd3fc">Shipping</tspan> · client web apps</text>
+      <text class="mono" x="54" y="229" font-size="11" fill="#64748b">React · TypeScript · Tailwind · Vercel</text>
+    </g>
+
+    <g class="i4">
+      <path class="chk k4" d="M26 264l6 6 12-13" fill="none" stroke="#4ade80" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="sans" x="54" y="268" font-size="13.5" fill="#cbd5e1"><tspan font-weight="600" fill="#7dd3fc">Open to</tspan> · collabs &amp; freelance</text>
+      <text class="mono" x="54" y="285" font-size="11" fill="#64748b">say hi<tspan class="caret" fill="#22d3ee"> ▍</tspan></text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="419" height="299" rx="18" fill="none" stroke="#94a3b8" stroke-opacity="0.18"/>
+  </g>
+</svg>

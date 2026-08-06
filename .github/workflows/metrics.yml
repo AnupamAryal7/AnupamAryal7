@@ -1,0 +1,47 @@
+# Generates assets/metrics.svg and commits it back to this repo.
+#
+# Why self-hosted: the popular public stat services (github-readme-stats.vercel.app,
+# github-profile-trophy.vercel.app) are frequently rate-limited or offline, which leaves
+# broken images on the profile. Rendering the card here means it is always available.
+#
+# Optional: create a classic PAT with `read:user` + `repo` scope and save it as the
+# repository secret METRICS_TOKEN to include private-contribution counts. Without it the
+# workflow falls back to GITHUB_TOKEN and reports public activity only.
+name: Generate GitHub metrics
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Render metrics card
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: AnupamAryal7
+          filename: assets/metrics.svg
+          template: classic
+          base: header, activity, community, repositories
+          base_indepth: yes
+          config_timezone: Asia/Kathmandu
+          config_display: large
+
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_sections: most-used
+          plugin_languages_colors: github
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year

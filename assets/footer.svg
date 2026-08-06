@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-labelledby="ft">
+  <title id="ft">Thanks for stopping by — let's build something great together.</title>
+
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0f1f"/>
+      <stop offset="50%" stop-color="#111a33"/>
+      <stop offset="100%" stop-color="#0b1120"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.40"/>
+    </linearGradient>
+    <linearGradient id="ftext" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <filter id="fsoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+    <clipPath id="fcard"><rect width="1000" height="200" rx="26"/></clipPath>
+
+    <style>
+      .sans { font-family: "Segoe UI", Inter, Ubuntu, "Helvetica Neue", Arial, sans-serif; }
+      .mono { font-family: "SFMono-Regular", "JetBrains Mono", Consolas, "Liberation Mono", Menlo, monospace; }
+      /* one full period of the wave path is 374px wide, so the loop is seamless */
+      @keyframes wave { 0% { transform: translateX(0); } 100% { transform: translateX(-374px); } }
+      .wa { animation: wave 12s linear infinite; }
+      .wb { animation: wave 18s linear infinite reverse; }
+      @keyframes twinkle { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+      .st { animation: twinkle 3s ease-in-out infinite; }
+      .st2 { animation: twinkle 4.5s ease-in-out infinite .8s; }
+      .st3 { animation: twinkle 3.8s ease-in-out infinite 1.6s; }
+      @media (prefers-reduced-motion: reduce) { .wa,.wb,.st,.st2,.st3 { animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#fcard)">
+    <rect width="1000" height="200" fill="url(#fbg)"/>
+    <circle cx="500" cy="200" r="150" fill="#6366f1" opacity="0.35" filter="url(#fsoft)"/>
+
+    <g class="st"><circle cx="140" cy="48" r="1.8" fill="#e0f2fe"/></g>
+    <g class="st2"><circle cx="820" cy="40" r="2.2" fill="#e0f2fe"/></g>
+    <g class="st3"><circle cx="300" cy="30" r="1.6" fill="#e0f2fe"/></g>
+    <g class="st2"><circle cx="660" cy="62" r="1.6" fill="#e0f2fe"/></g>
+    <g class="st"><circle cx="920" cy="90" r="1.8" fill="#e0f2fe"/></g>
+
+    <text class="sans" x="500" y="76" font-size="24" font-weight="700" text-anchor="middle" fill="url(#ftext)">Let's build something great together.</text>
+    <text class="mono" x="500" y="104" font-size="13" text-anchor="middle" fill="#94a3b8" letter-spacing="1.6">anupamaryal.com.np &#160;·&#160; anmaryal41@gmail.com</text>
+
+    <g class="wb">
+      <path d="M-374 148c62 -26 124 -26 187 0c62 26 124 26 187 0c62 -26 124 -26 187 0c62 26 124 26 187 0c62 -26 124 -26 187 0c62 26 124 26 187 0c62 -26 124 -26 187 0c62 26 124 26 187 0c62 -26 124 -26 187 0c62 26 124 26 187 0c62 -26 124 -26 187 0c62 26 124 26 187 0V300H-374Z" fill="url(#w2)"/>
+    </g>
+    <g class="wa">
+      <path d="M-374 162c62 -22 124 -22 187 0c62 22 124 22 187 0c62 -22 124 -22 187 0c62 22 124 22 187 0c62 -22 124 -22 187 0c62 22 124 22 187 0c62 -22 124 -22 187 0c62 22 124 22 187 0c62 -22 124 -22 187 0c62 22 124 22 187 0c62 -22 124 -22 187 0c62 22 124 22 187 0V300H-374Z" fill="url(#w1)"/>
+    </g>
+
+    <rect x="0.5" y="0.5" width="999" height="199" rx="26" fill="none" stroke="#94a3b8" stroke-opacity="0.18"/>
+  </g>
+</svg>

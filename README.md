@@ -29,13 +29,6 @@ Most of my time goes into the **React / Next.js / TypeScript** side of the stack
 **FastAPI**, **PostgreSQL** and **Supabase** — and lately, an increasing amount of
 **AI-assisted tooling** wired in with LangGraph.
 
-- 🔭 &nbsp;Currently building **[The Transporter](https://office-file-management-three.vercel.app)** — an AI-assisted office file management workspace
-- 🌱 &nbsp;Deepening my skills in **FastAPI**, **Next.js** and **agentic AI workflows**
-- 💼 &nbsp;Shipping real client work like **[ACT Capital Driving School](https://act-capital-frontend.vercel.app/)**
-- 👨‍💻 &nbsp;Everything I've built lives at **[anupamaryal.com.np](https://anupamaryal.com.np/)**
-- 💬 &nbsp;Ask me about **React, Next.js, TypeScript, Tailwind, FastAPI, Strapi**
-- 📫 &nbsp;Reach me at **[anmaryal41@gmail.com](mailto:anmaryal41@gmail.com)**
-- ⚡ &nbsp;Fun fact: I play **chess** — same game as debugging, fewer stack traces
 
 <br clear="right" />
 

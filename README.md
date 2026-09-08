@@ -39,76 +39,76 @@ Most of my time goes into the **React / Next.js / TypeScript** side of the stack
 **Languages**
 
 <p>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=0B1120" alt="TypeScript" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=0B1120" alt="JavaScript" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0B1120" alt="Python" />
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=0B1120" alt="C" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=0B1120" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white&labelColor=0B1120" alt="CSS" />
+<img src="https://skillicons.dev/icons?i=ts" height="48" alt="TypeScript" />
+<img src="https://skillicons.dev/icons?i=js" height="48" alt="JavaScript" />
+<img src="https://skillicons.dev/icons?i=python" height="48" alt="Python" />
+<img src="https://skillicons.dev/icons?i=c" height="48" alt="C" />
+<img src="https://skillicons.dev/icons?i=html" height="48" alt="HTML5" />
+<img src="https://skillicons.dev/icons?i=css" height="48" alt="CSS" />
 </p>
 
 **Frontend**
 
 <p>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=0B1120" alt="React" />
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=0B1120" alt="Next.js" />
-<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white&labelColor=0B1120" alt="Angular" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=0B1120" alt="Tailwind CSS" />
-<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=0B1120" alt="Vite" />
-<img src="https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radixui&logoColor=white&labelColor=0B1120" alt="Radix UI" />
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=0B1120" alt="Figma" />
+<img src="https://skillicons.dev/icons?i=react" height="48" alt="React" />
+<img src="https://skillicons.dev/icons?i=nextjs" height="48" alt="Next.js" />
+<img src="https://skillicons.dev/icons?i=angular" height="48" alt="Angular" />
+<img src="https://skillicons.dev/icons?i=tailwind" height="48" alt="Tailwind CSS" />
+<img src="https://skillicons.dev/icons?i=vite" height="48" alt="Vite" />
+<img src="https://img.shields.io/badge/-0B1120?style=for-the-badge&logo=radixui&logoColor=white" height="48" alt="Radix UI" />
+<img src="https://skillicons.dev/icons?i=figma" height="48" alt="Figma" />
 </p>
 
 **Backend**
 
 <p>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0B1120" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white&labelColor=0B1120" alt="Django" />
-<img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=0B1120" alt="Node.js" />
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white&labelColor=0B1120" alt="Express" />
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white&labelColor=0B1120" alt="Flask" />
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white&labelColor=0B1120" alt="Nginx" />
+<img src="https://skillicons.dev/icons?i=fastapi" height="48" alt="FastAPI" />
+<img src="https://skillicons.dev/icons?i=django" height="48" alt="Django" />
+<img src="https://skillicons.dev/icons?i=nodejs" height="48" alt="Node.js" />
+<img src="https://skillicons.dev/icons?i=express" height="48" alt="Express" />
+<img src="https://skillicons.dev/icons?i=flask" height="48" alt="Flask" />
+<img src="https://skillicons.dev/icons?i=nginx" height="48" alt="Nginx" />
 </p>
 
 **Databases**
 
 <p>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0B1120" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0B1120" alt="MySQL" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=0B1120" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white&labelColor=0B1120" alt="Redis" />
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white&labelColor=0B1120" alt="Supabase" />
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white&labelColor=0B1120" alt="Prisma" />
+<img src="https://skillicons.dev/icons?i=postgres" height="48" alt="PostgreSQL" />
+<img src="https://skillicons.dev/icons?i=mysql" height="48" alt="MySQL" />
+<img src="https://skillicons.dev/icons?i=mongodb" height="48" alt="MongoDB" />
+<img src="https://skillicons.dev/icons?i=redis" height="48" alt="Redis" />
+<img src="https://skillicons.dev/icons?i=supabase" height="48" alt="Supabase" />
+<img src="https://skillicons.dev/icons?i=prisma" height="48" alt="Prisma" />
 </p>
 
 **AI &amp; Agents**
 
 <p>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0B1120" alt="LangChain" />
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white&labelColor=0B1120" alt="LangGraph" />
-<img src="https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white&labelColor=0B1120" alt="Claude API" />
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=0B1120" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/-0B1120?style=for-the-badge&logo=langchain&logoColor=white" height="48" alt="LangChain" />
+<img src="https://img.shields.io/badge/-0B1120?style=for-the-badge&logo=langgraph&logoColor=white" height="48" alt="LangGraph" />
+<img src="https://img.shields.io/badge/-0B1120?style=for-the-badge&logo=anthropic&logoColor=D97757" height="48" alt="Claude API" />
+<img src="https://img.shields.io/badge/-0B1120?style=for-the-badge&logo=huggingface&logoColor=FFD21E" height="48" alt="Hugging Face" />
 </p>
 
-**Cloud &amp; DevOps**
+**Cloud, DevOps &amp; Tooling**
 
 <p>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0B1120" alt="Docker" />
-<img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=0B1120" alt="Cloudflare" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0B1120" alt="Vercel" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=0B1120" alt="Linux" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=0B1120" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1120" alt="GitHub" />
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=0B1120" alt="Postman" />
+<img src="https://skillicons.dev/icons?i=docker" height="48" alt="Docker" />
+<img src="https://skillicons.dev/icons?i=cloudflare" height="48" alt="Cloudflare" />
+<img src="https://skillicons.dev/icons?i=vercel" height="48" alt="Vercel" />
+<img src="https://skillicons.dev/icons?i=linux" height="48" alt="Linux" />
+<img src="https://skillicons.dev/icons?i=git" height="48" alt="Git" />
+<img src="https://skillicons.dev/icons?i=github" height="48" alt="GitHub" />
+<img src="https://skillicons.dev/icons?i=vscode" height="48" alt="VS Code" />
+<img src="https://skillicons.dev/icons?i=postman" height="48" alt="Postman" />
 </p>
 
 **Hosting &amp; Server Panels**
 
 <p>
-<img src="https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white&labelColor=0B1120" alt="cPanel" />
-<img src="https://img.shields.io/badge/WHM-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white&labelColor=0B1120" alt="WHM" />
-<img src="https://img.shields.io/badge/Enhance-6366F1?style=for-the-badge&logo=serverfault&logoColor=white&labelColor=0B1120" alt="Enhance control panel" />
-<img src="https://img.shields.io/badge/Plesk-52BBE6?style=for-the-badge&logo=plesk&logoColor=white&labelColor=0B1120" alt="Plesk" />
+<img src="https://img.shields.io/badge/-0B1120?style=for-the-badge&logo=cpanel&logoColor=FF6C2C" height="48" alt="cPanel / WHM" />
+<img src="https://img.shields.io/badge/-0B1120?style=for-the-badge&logo=plesk&logoColor=52BBE6" height="48" alt="Plesk" />
+<img src="https://img.shields.io/badge/-0B1120?style=for-the-badge&logo=serverfault&logoColor=6366F1" height="48" alt="Enhance control panel" />
 </p>
 
 <!-- Featured Work — temporarily hidden. Uncomment to bring it back.
